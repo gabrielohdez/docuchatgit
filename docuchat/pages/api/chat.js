@@ -17,3 +17,6 @@ export default async function handler(req, res) {
 
   res.status(200).json({ response: response.data.choices[0].message.content });
 }
+//hola
+
+
